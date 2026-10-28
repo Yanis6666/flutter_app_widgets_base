@@ -17,6 +17,22 @@ class MainApp extends StatelessWidget {
             children: [
               Text('Hello World!'),
               Text('Bienvenue sur Flutter!'),
+              
+Container(
+  margin: EdgeInsets.all(20),
+  padding: EdgeInsets.all(16),
+  decoration: BoxDecoration(
+    color: Colors.deepPurpleAccent,
+    borderRadius: BorderRadius.circular(20),
+  ),
+  child: Text(
+    'Boîte stylisée avec Container',
+    style: TextStyle(color: Colors.white, fontSize: 18),
+  ),
+),
+
+Text('Mon premier Container'),
+
             ],
           ),
         ),
